@@ -1,0 +1,761 @@
+
+body{
+    padding-top: 50px;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    padding: 8px 0;
+    top:0px;
+    background-color: #ffffff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px auto;
+    gap: 30px;
+
+    z-index: 1000;
+
+}
+
+
+
+a {
+    color: rgb(45, 43, 43);
+    font-size: 14px;
+    text-decoration: none;
+
+    font-family: "Merienda", cursive;
+    font-weight: 750;
+    font-style: normal;
+    border-bottom: none;
+}
+
+
+
+#HOME-sec {
+    height: 74vh;
+    background-image: url("slider_2.jpg");
+    filter:brightness(100%);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8% 0 0;
+}
+
+
+@media (max-width:700px){
+    #HOME-sec p{
+    display: none;
+    }
+}
+
+
+h1,h2,h3 {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 600;
+}
+h2, h3 {
+    color: rgb(53, 49, 49);
+}
+#H2-w {
+    color: rgb(255, 255, 255);
+
+}
+.Business-sec h3 {
+    margin: 0px ;
+    font-weight: 900;
+}
+
+
+h1 { font-size: 6.6vh;}
+h2 { font-size: 5.5vh;}
+h3 {
+    font-size: 3.5vh;
+    font-weight: 300;
+}
+
+#HOME-sec p  {
+    font-size: 18px;
+    line-height: 1.6em;
+    color: white;
+    margin: 0 auto 30px;
+    max-width: 600px;
+
+    font-family: "Merienda", cursive;
+    font-weight: 400px;
+    font-style: normal;
+
+}
+
+animate animation {
+    width: 42.4266px;
+}
+
+.buttons{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px 15px;
+
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.buttons-1{
+    background-color: rgb(0, 225, 255);
+    border: none;
+    border-radius:30% 80%;
+    margin-top: 40px;
+
+    -webkit-border-radius:30% 80%;
+    -moz-border-radius:30% 80%;
+    -ms-border-radius:30% 80%;
+    -o-border-radius:30% 80%;
+
+}
+
+.buttons-1:hover {
+    background-color: #565959;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.buttons-2 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.buttons-2:hover {
+    background-color: #ffffff;
+    color: #656161;
+    cursor: pointer;
+
+}
+
+
+.submit-1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aqua;
+    border: none;
+    border-radius: 20% 80%;
+    padding: 0.4em 3em;
+
+    -webkit-border-radius: 20% 80%;
+    -moz-border-radius: 20% 80%;
+    -ms-border-radius: 20% 80%;
+    -o-border-radius: 20% 80%;
+}
+
+
+#Services-sec{
+    text-align: center;
+    padding: 10px 20px 60px;
+
+
+}
+
+#pW-start {
+
+    font-size: 25px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin: 0 auto 18px;
+    max-width: 780px;
+
+    font-family: "Merienda", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+#pB-start {
+    font-family: "Merienda", cursive;
+    font-weight: 400px;
+    font-style: normal;
+
+    font-size: 25px;
+    color: rgb(67, 65, 65);
+    margin: 50px auto 0px;
+    padding: 0  25PX;
+    max-width: 600px;
+
+    text-align: center;
+}
+
+.flex-Services p {
+    font-family: "Merienda", cursive;
+    font-weight: 400px;
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 1.6em;
+    color: rgb(129, 125, 125);
+    margin: 15px auto 30px;
+    padding: 0  25PX;
+    max-width: 600px;
+}
+
+
+.flex-Services {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: auto 12%;
+}
+
+.item {
+    flex: 1 1 calc(20% - 1rem);
+    width: 20rem;
+}
+
+@media (max-width:1200px) {
+    .item{
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+    
+@media (max-width:700px) {
+    .item{
+        flex: 1 1 calc(100% - 1rem);
+    }
+}
+hr {
+    width: 85%;
+}
+
+
+
+
+.Cases-sec {
+    height: 70vh;
+    text-align: center;
+    padding: 5% 0 0;
+
+    background-image: url("case.jpg");
+    filter:brightness(100%);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    color: #FFFFFF;
+    -webkit-filter:brightness(100%);
+}
+
+
+
+#p-Cases  {
+
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 1.8em;
+    color: white;
+    margin: 0 auto 30px;
+    max-width: 800px;
+}
+
+
+
+
+
+
+
+/*start*/
+
+
+#Testimonials {
+    padding: 50px 10%;
+}
+#Testimonials .container .main-heading span{
+    text-transform: uppercase;
+    font-family: Merienda, cursive;
+}
+.Testimonials-content {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.Testimonials-content .testimonial {
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.Testimonials-content .testimonial .testimonialimg img {
+    display: block;
+    border-radius: 50%;
+}
+
+.Testimonials-content .testimonial .test-info {
+    margin-left: 15px;
+}
+
+.Testimonials-content .testimonial .test-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #777777;
+}
+
+.Testimonials-content .testimonial .test-info h4 {
+    color: #32353e;
+}
+
+.test-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-controls div {
+    background-color: #f0f0f0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.test-controls div i {
+    color: #15c0c7;
+}
+
+@media screen and (max-width:991px) {
+    .Testimonials-content .testimonial {
+    min-width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .Testimonials-content .testimonial p {
+    margin: 10px 0;
+}
+}
+/* end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news-sec {
+    text-align: center;
+    padding: 80px ;
+
+    background-image: url("revenue.jpg");
+    filter:brightness(100%);
+    background-size:cover ;
+    color: #FFFFFF;
+    -webkit-filter:brightness(100%);
+}
+
+
+.news-sec h3 {
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+.news-sec h2 {
+
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 1000;
+    
+}
+.new-start {
+
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 3.5vh;
+    color: rgb(0, 0, 0);
+    margin: 0 auto ;
+    max-width: 600px;
+
+}
+
+.Contant-sec {
+
+    height: 70vh;
+    text-align: center;
+    padding: 5% 0 0;
+
+
+}
+
+.words p {
+    color: rgb(126, 125, 123);
+    font-size: 16px;
+    font-family: "Merienda", cursive;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 100%;
+}
+
+
+
+
+
+.Business-cardssss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.Business-card  {
+    width: 29%;
+    margin: 20px 10px 0px;
+    box-shadow:0 20px 20px rgba(42, 41, 41, 0.2);
+}
+
+.Business-card img {
+    width: 100%;
+    height: 220px;
+}
+
+
+
+.title {
+    display: flex;
+    align-items: center;
+
+    font-size: 18px;
+
+    font-family: "Merienda", cursive;
+    font-weight: 700;
+    font-style: italic;
+
+    padding: 8px  15px;
+    width: 100%;
+    gap: 20px;
+
+}
+
+
+.user-name {
+    color: rgb(123, 122, 122);
+    font-weight: 500;
+}
+.date{
+    font-weight: 800;
+    color: aqua;
+    
+}
+
+.user-name a {
+    margin-left: 2px;
+    font-size: 18px;
+    color: rgb(123, 122, 122);
+
+}
+
+.words{
+    padding:5px 10px ;
+}
+
+select, input {
+    width: 45%;
+    padding: 20px ;
+    border: none;
+    margin: 0 20px 20px;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    font-family: "Merienda", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+}
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+#title-p {
+    color: rgb(41, 40, 39);
+    font-size: 20px;
+    font-family: "Merienda", cursive;
+    font-weight: 750;
+    font-style: normal;
+    max-width: 30%;
+    margin: 0 auto 15px;
+}
+
+
+#Business-Tips {
+    background: url(image.png) center/cover no-repeat fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Business-Tips .layer {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.468);
+}
+
+#Business-Tips .content {
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 90%;
+}
+#Business-Tips .main-heading h3{
+    font-weight: 300;
+    font-size: 25px;
+}
+#Business-Tips .main-heading h2::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    background: #4c526b;
+    height: 15px;
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+    bottom: -18px;
+    border: 1px solid;
+    z-index: 2;
+}
+
+#Business-Tips .main-heading h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: white;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: changeW 2s infinite;
+    z-index: 1;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.box p {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Merienda, cursive;
+}
+@keyframes changeW {
+0%, 100%  {
+    width: 40px;
+}
+50% {
+    width: 120px;
+  }
+}
+
+
+
+
+
+
+
+#Testimonials h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes changeW {
+    0% { width: 100px; }
+    50% { width: 150px; }
+    100% { width: 100px; }
+}
+
+
+.Business-sec h2 {
+    position: relative;
+    padding-bottom: 10px;
+
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+
+.Business-sec h2::before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    background: #43a3d2;
+    height: 16px;
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+    bottom: -18px;
+    z-index: 2;
+}
+
+.Business-sec h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: rgb(61, 165, 206);
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: changeW 2s infinite;
+    z-index: 1;
+}
+
+
+
+#Services-sec h2 {
+    position: relative;
+    padding-bottom: 10px;
+
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#Services-sec h2::before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    background: #43a3d2;
+    height: 16px;
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+    bottom: -18px;
+    z-index: 2;
+}
+
+#Services-sec h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: rgb(61, 165, 206);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: changeW 2s infinite;
+    z-index: 1;
+    -webkit-animation: changeW 2s infinite;
+}
+
+
+
+
+#Testimonials .main-heading h2 {
+    position: relative;
+    padding-bottom: 10px;
+
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+#Testimonials h2::before {
+    position: absolute;
+    content: "";
+    width: 16px;
+    background: #43a3d2;
+    height: 16px;
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+    bottom: -24px;
+    z-index: 2;
+}
+
+#Testimonials h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: rgb(61, 165, 206);
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: changeW 2s infinite;
+    z-index: 1;
+}
